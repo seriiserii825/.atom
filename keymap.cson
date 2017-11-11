@@ -33,5 +33,11 @@
 'body':
  'alt-right': 'pane:show-next-item'
  'alt-left': 'pane:show-previous-item'
+
 'body:native-key-bindings':
   'alt-right-left': '!native'
+
+'atom-text-editor:not(mini).autocomplete-active':
+  'enter': 'autocomplete-plus:confirm'
+  'up': 'autocomplete-plus:select-previous'
+  'down': 'autocomplete-plus:select-next'  

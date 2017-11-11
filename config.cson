@@ -11,6 +11,9 @@
       beautify_on_save: true
     scss:
       beautify_on_save: true
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": false
   "autocomplete-modules":
     includeExtension: true
   autosave:
