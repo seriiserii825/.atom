@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+        "spec": "/tmp/d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171011-26866-o1ipnk.giwwswnrk9"
+    ]
+  ],
+  "_from": "../d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+  "_id": "build-gulp@0.11.0",
+  "_inCache": true,
+  "_location": "/build-gulp",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+    "spec": "/tmp/d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+  "_shasum": "fc3715cc2e04b43b46c9f01ca8a3a5469c27a7d6",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1171011-26866-xiox6z.vgd6etgldi/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171011-26866-o1ipnk.giwwswnrk9",
+  "bugs": {
+    "url": "https://github.com/AtomBuild/atom-build-gulp/issues"
+  },
+  "dependencies": {},
+  "description": "Runs gulp targets",
+  "devDependencies": {
+    "atom-build-spec-helpers": "^0.4.0",
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.10.1",
+    "eslint-config-atom-build": "^1.0.0",
+    "fs-extra": "^0.23.1",
+    "temp": "^0.8.3"
+  },
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "homepage": "https://github.com/AtomBuild/atom-build-gulp#readme",
+  "keywords": [
+    "build",
+    "compile",
+    "gulp",
+    "javascript",
+    "productivity"
+  ],
+  "license": "MIT",
+  "main": "lib/gulp.js",
+  "name": "build-gulp",
+  "optionalDependencies": {},
+  "providedServices": {
+    "builder": {
+      "description": "Runs gulp targets",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "readme": "# Gulp runner for Atom\n[![Build Status](https://travis-ci.org/AtomBuild/atom-build-gulp.svg?branch=master)](https://travis-ci.org/AtomBuild/atom-build-gulp)\n[![Gitter chat](https://badges.gitter.im/noseglid/atom-build.svg)](https://gitter.im/noseglid/atom-build)\n\nUses the [atom-build](https://github.com/noseglid/atom-build) package to execute\ngulp builds in the `Atom` editor.\n\nThis package requires [atom-build](https://github.com/noseglid/atom-build) to be installed.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomBuild/atom-build-gulp.git"
+  },
+  "version": "0.11.0"
+}

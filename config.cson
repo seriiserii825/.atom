@@ -1,0 +1,72 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+    html:
+      beautify_on_save: true
+    js:
+      beautify_on_save: true
+    scss:
+      beautify_on_save: true
+  "autocomplete-modules":
+    includeExtension: true
+  autosave:
+    enabled: true
+  "color-picker":
+    abbreviateValues: true
+    automaticReplace: true
+    randomColor: false
+  core:
+    disabledPackages: [
+      "atom-terminal"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/home/serii/.atom"
+    telemetryConsent: "no"
+  docblockr:
+    spacer_between_sections: "after_description"
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "5f031f07-d921-4bbd-bf8e-0c405d7afa53"
+  "file-icons":
+    onChanges: true
+  "gist-it":
+    openAfterCreate: true
+    useHttp: true
+  "highlight-selected":
+    ignoreCase: true
+  jslint:
+    hideOnNoErrors: true
+    validateOnChange: true
+  linter: {}
+  "open-recent":
+    listDirectoriesAddedToProject: true
+  pigments:
+    autocompleteSuggestionsFromValue: true
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+  "platformio-ide-terminal":
+    style:
+      theme: "one-dark"
+    toggles:
+      autoClose: true
+  "recent-projects": {}
+  "spell-check":
+    addKnownWords: true
+    locales: [
+      "en-Us"
+      "ru-Ru"
+    ]
+  "svg-preview": {}
+  "tree-view":
+    alwaysOpenExisting: true
+    autoReveal: true
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
